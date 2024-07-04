@@ -1,29 +1,23 @@
 {
-	"name": "yohn/yohns-template",
-	"description": "A good starting point for future projects",
+	"name": "yohn/file-man",
+	"description": " File explorer, with a little more, built on the classic Bootstrap 2.3 years ago",
 	"minimum-stability":"dev",
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"php": ">=8",
-		"myjw3b/core": "*",
-		"myjw3b/icons": "*",
-		"myjw3b/helpful": "*",
-		"myjw3b/php-bootstrap-form-class": "*",
-		"myjw3b/php-pdo-chainer": "*",
-		"myjw3b/language": "*",
-		"myjw3b/links": "*",
-		"myjw3b/file-writing": "*"
+		"php": "^5.3"
 	},
-	"authors": {
-		"name": "John Brittain III",
-		"email": "Yohn@coming-soon.com",
-		"homepage": "https://github.com/Yohn",
-		"role": "Developer"
-	},
+	"authors": [
+		{
+			"name": "John Brittain III",
+			"email": "Yohn@coming-soon.com",
+			"homepage": "https://github.com/Yohn",
+			"role": "Developer"
+		}
+	],
 	"autoload": {
 		"psr-4": {
-			"Yohn\\Build\\": "Build"
+			"Yohns\\FileMan": "Yohns"
 		}
 	}
 }
