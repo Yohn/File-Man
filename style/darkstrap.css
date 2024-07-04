@@ -1,0 +1,594 @@
+#PgHeader {
+/*  background:url(/style/imgs/monkey_eyes.png) top right no-repeat; */
+  min-height:200px;
+}
+#PgHeader h2 {
+  font-size:0;
+  /*background:url(/style/imgs/grey2_flop_2004.png) center left no-repeat rgba(0,0,0,.05);*/
+  height:190px;
+  padding:0;
+  width:210px;
+  border-radius:50px;
+/*  box-shadow:inset 0px 0px 20px rgba(0,0,0,.5), 0 0 10px rgba(0,0,0,.5);*/
+}
+/* line 31, ../sass/darkstrap.scss */
+.well, .breadcrumb, 
+input,
+input[type="file"],
+select,
+textarea, .progress, code, pre {
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  background: #202020 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  border-color:rgba(0,0,0,.3) !important;
+}
+select {
+  background-color:#111 !important;
+}
+.hero-unit h1 small,
+.hero-unit-small h1 small {
+  text-shadow:0 1px 2px #000;
+}
+.hero-unit,
+.hero-unit-small {
+  background-color: rgba(34,34,34,.5);
+  border:1px solid #333;
+  color:#999;
+  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
+}
+.hero-unit h1 {
+  background:transparent;
+  color:#000;
+  border-bottom:1px solid #08c;
+  text-shadow:0 1px 2px #444;
+}
+.hero-unit-small h1 {
+  background:transparent;
+  color:#000;
+  border-bottom:1px solid #08c;
+  text-shadow:0 1px 2px #444;
+}
+.well {border-color:#111;}
+.well .well {background:#2F2F2F;}
+.well-info {border-bottom:1px solid #444;}
+.well-title {border-bottom:1px solid #555;}
+
+.event-date {
+  background:rgba(255,255,255,.2);
+  border:1px solid #666;
+  box-shadow:inset 0 0 10px #000;
+}
+.event-date span {
+  background:#333;
+}
+
+.thumbnail {border-color:#0f0f0f;}
+
+.modal-backdrop, 
+.modal-backdrop.fade.in{
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	background: #000;
+}
+.modal {background:url(/style/imgs/gray_sand.png) fixed center;}
+.modal-body {
+  box-shadow:inset 0 0 40px #000;
+  position:static;
+}
+.modal-header .close {color:#fff; opacity:.7}
+.modal-header .close:hover {opacity:.9}
+
+.pagination ul > li > a,
+.pagination ul > li > span {
+  background-color:#222 !important;
+  border-color: #666 !important;
+}
+
+/* line 33, ../sass/darkstrap.scss */
+body {
+  background: #2f2f2f;
+  color: #c6c6c6;
+}
+
+/* line 39, ../sass/darkstrap.scss */
+.breadcrumb {
+  border: 0;
+}
+/* line 42, ../sass/darkstrap.scss */
+.breadcrumb li {
+  text-shadow: 0 1px 0 #000;
+}
+
+/* line 48, ../sass/darkstrap.scss */
+.page-header {
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+}
+
+/* line 49, ../sass/darkstrap.scss */
+h1, h2, h3, h4, h5 {
+  color: white;
+}
+
+/* line 50, ../sass/darkstrap.scss */
+h6 {
+  color: #999;
+}
+
+/* line 57, ../sass/darkstrap.scss */
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > .open.active > a:hover {
+  background-color: #222222;
+  border-color: #2f2f2f #2f2f2f transparent #2f2f2f;
+}
+
+/* line 61, ../sass/darkstrap.scss */
+.nav > .dropdown.active > a:hover {
+  color: #fff;
+}
+
+/* line 65, ../sass/darkstrap.scss */
+.nav-tabs .active .dropdown-toggle .caret,
+.nav-pills .active .dropdown-toggle .caret {
+  border-top-color: #fff;
+}
+
+/* line 68, ../sass/darkstrap.scss */
+.nav-tabs {
+  border-bottom: 1px solid #666;
+}
+/* line 71, ../sass/darkstrap.scss */
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover {
+  background-color: #2f2f2f;
+  color: #fff;
+  border-color: #666 #666 transparent #666;
+}
+/* line 76, ../sass/darkstrap.scss */
+.nav-tabs > li > a:hover {
+  border-color: #2f2f2f #2f2f2f #666666 #2f2f2f;
+  background-color: #222222;
+  color: #00aaff;
+}
+/* line 83, ../sass/darkstrap.scss */
+.nav-tabs.nav-stacked > li > a, .nav-tabs.nav-stacked > li > a:hover {
+  border-color: #666;
+}
+
+/* line 89, ../sass/darkstrap.scss */
+.nav-pills > li > a:hover {
+  background-color: #111;
+  color: #00aaff;
+}
+
+/* line 95, ../sass/darkstrap.scss */
+.nav-list > li > a,
+.nav-list .nav-header {
+  text-shadow: 0 1px 0 #000;
+}
+
+/* line 98, ../sass/darkstrap.scss */
+.nav-list > li > a:hover {
+  background-color: #161616;
+  color: #00aaff;
+}
+
+/* line 103, ../sass/darkstrap.scss */
+.nav-list .active > a:hover {
+  background-color: #0088cc;
+  color: white;
+}
+
+/* line 109, ../sass/darkstrap.scss */
+.tabs-below .nav-tabs {
+  border-top: 1px solid #666;
+}
+
+/* line 110, ../sass/darkstrap.scss */
+.tabs-left .nav-tabs {
+  border-right: 1px solid #666;
+}
+
+/* line 111, ../sass/darkstrap.scss */
+.tabs-right .nav-tabs {
+  border-left: 1px solid #666;
+}
+
+/* line 113, ../sass/darkstrap.scss */
+.tabs-below .nav-tabs > li > a:hover {
+  border-top: 1px solid #666;
+}
+
+/* line 116, ../sass/darkstrap.scss */
+.tabs-left .nav-tabs > li > a:hover {
+  border-color: transparent #666 transparent transparent;
+}
+
+/* line 119, ../sass/darkstrap.scss */
+.tabs-right .nav-tabs > li > a:hover {
+  border-color: transparent transparent transparent #666;
+}
+
+/* line 124, ../sass/darkstrap.scss */
+.tabs-below .nav-tabs .active > a,
+.tabs-below .nav-tabs .active > a:hover {
+  border-color: transparent #666 #666 #666;
+}
+
+/* line 128, ../sass/darkstrap.scss */
+.tabs-left .nav-tabs .active > a,
+.tabs-left .nav-tabs .active > a:hover {
+  border-color: #666 transparent #666 #666;
+}
+
+/* line 132, ../sass/darkstrap.scss */
+.tabs-right .nav-tabs .active > a,
+.tabs-right .nav-tabs .active > a:hover {
+  border-color: #666 #666 #666 transparent;
+}
+
+/* line 2, ../sass/mixins.scss */
+:-moz-placeholder {
+  color: #666666 !important;
+}
+
+/* line 5, ../sass/mixins.scss */
+::-webkit-input-placeholder {
+  color: #666666 !important;
+}
+
+/* line 140, ../sass/darkstrap.scss */
+.input-prepend .add-on,
+.input-append .add-on {
+  background: #444;
+  color: #c6c6c6;
+  border-color: #111;
+  text-shadow: 0 1px 0  black;
+}
+
+/* line 147, ../sass/darkstrap.scss */
+label {
+  color: #c6c6c6;
+}
+
+/* line 154, ../sass/darkstrap.scss */
+input,
+input[type="file"],
+select,
+textarea {
+  color: white !important;
+  border-color: #111111;
+}
+
+/* line 160, ../sass/darkstrap.scss */
+.search-query {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0) 0 1px 7px 0px inset;
+}
+
+/* line 163, ../sass/darkstrap.scss */
+legend {
+  color: white;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+}
+
+/* line 167, ../sass/darkstrap.scss */
+.form-actions {
+  border-top-color: #222;
+  background-color: #444;
+}
+
+/* line 172, ../sass/darkstrap.scss */
+.help-inline,
+.help-block,
+.muted {
+  color: #999;
+}
+
+/* line 12, ../sass/mixins.scss */
+.control-group.warning > label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline {
+  color: #faa732;
+}
+/* line 13, ../sass/mixins.scss */
+.control-group.warning input, .control-group.warning select, .control-group.warning textarea {
+  color: #faa732;
+  border-color: #faa732;
+}
+/* line 20, ../sass/mixins.scss */
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus {
+  border-color: #faa732;
+  -moz-box-shadow: 0 0 6px #faa732;
+  -webkit-box-shadow: 0 0 6px #faa732;
+  -o-box-shadow: 0 0 6px #faa732;
+  box-shadow: 0 0 6px #faa732;
+}
+/* line 12, ../sass/mixins.scss */
+.control-group.success > label, .control-group.success .help-block, .control-group.success .help-inline {
+  color: #5bb75b;
+}
+/* line 13, ../sass/mixins.scss */
+.control-group.success input, .control-group.success select, .control-group.success textarea {
+  color: #5bb75b;
+  border-color: #5bb75b;
+}
+/* line 20, ../sass/mixins.scss */
+.control-group.success input:focus, .control-group.success select:focus, .control-group.success textarea:focus {
+  border-color: #5bb75b;
+  -moz-box-shadow: 0 0 6px #5bb75b;
+  -webkit-box-shadow: 0 0 6px #5bb75b;
+  -o-box-shadow: 0 0 6px #5bb75b;
+  box-shadow: 0 0 6px #5bb75b;
+}
+/* line 12, ../sass/mixins.scss */
+.control-group.error > label, 
+.control-group.error .help-block, 
+.control-group.error .help-inline {
+  color: #fc5b5e;
+}
+/* line 13, ../sass/mixins.scss */
+.control-group.error > .controls input, 
+.control-group.error > .controls select, 
+.control-group.error > .controls textarea {
+  color: #fc5b5e !important;
+  border-color: #fc5b5e !important;
+}
+/* line 20, ../sass/mixins.scss */
+.control-group.error input:focus, 
+.control-group.error select:focus, 
+.control-group.error textarea:focus {
+  border-color: #fc5b5e;
+  -moz-box-shadow: 0 0 6px #fc5b5e;
+  -webkit-box-shadow: 0 0 6px #fc5b5e;
+  -o-box-shadow: 0 0 6px #fc5b5e;
+  box-shadow: 0 0 6px #fc5b5e;
+}
+.control-group.error > .controls > .input-prepend > .add-on,
+.control-group.error > .controls > .input-apppend > .add-on  {
+  background-color:#000;
+}
+/* line 182, ../sass/darkstrap.scss */
+.table thead {
+  color: white;
+}
+/* line 185, ../sass/darkstrap.scss */
+.table td,
+.table th {
+  border-top-color: #666;
+}
+
+/* line 191, ../sass/darkstrap.scss */
+.table-striped tbody tr:nth-child(2n+1) td, .table-striped tbody tr:nth-child(2n+1) th {
+  background-color: #333;
+}
+
+/* line 197, ../sass/darkstrap.scss */
+.table-bordered {
+  border: 1px solid #666;
+}
+/* line 202, ../sass/darkstrap.scss */
+.table-bordered th + th,
+.table-bordered td + td,
+.table-bordered th + td,
+.table-bordered td + th {
+  border-left: 1px solid #666;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #222;
+}
+
+/* line 212, ../sass/darkstrap.scss */
+.pagination .active a {
+  color: #fff;
+  background-color: #222222;
+}
+
+.pager > li > a,
+.pagination ul > li > a,
+.pagination ul > li > span {
+  background-color:#222;
+  border-color: #666;
+}
+
+.pager > li > a:hover ,
+.pagination li > a:hover {
+  color: #00aaff;
+  background-color: #111 !important;
+  border-color:#444;
+}
+
+/* line 238, ../sass/darkstrap.scss */
+.alert {
+  color: #fff;
+  background-color: #faa732;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #a86404;
+}
+/* line 234, ../sass/darkstrap.scss */
+.alert h4 {
+  color: #c17305;
+}
+
+/* line 239, ../sass/darkstrap.scss */
+.alert-success {
+  color: #fff;
+  background-color: #5bb75b;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #2d662d;
+}
+/* line 234, ../sass/darkstrap.scss */
+.alert-success h4 {
+  color: #347834;
+}
+
+/* line 240, ../sass/darkstrap.scss */
+.alert-error {
+  color: #fff;
+  background-color: #fc5b5e;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #d40408;
+}
+/* line 234, ../sass/darkstrap.scss */
+.alert-error h4 {
+  color: #ed0409;
+}
+
+/* line 241, ../sass/darkstrap.scss */
+.alert-info {
+  color: #fff;
+  background-color: #3a87ad;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  border-color: #1a3c4e;
+}
+/* line 234, ../sass/darkstrap.scss */
+.alert-info h4 {
+  color: #204b61;
+}
+
+/* line 245, ../sass/darkstrap.scss */
+.modal {
+  background-color: #444;
+}
+
+/* line 248, ../sass/darkstrap.scss */
+.modal-header {
+  border-bottom: 1px solid #222;
+}
+
+/* line 251, ../sass/darkstrap.scss */
+.modal-body p {
+  color: #c6c6c6;
+}
+
+/* line 254, ../sass/darkstrap.scss */
+.modal-footer {
+  background-color: #373737;
+  border-top: 1px solid #222;
+  -moz-box-shadow: 0 1px 0 #333333 inset;
+  -webkit-box-shadow: 0 1px 0 #333333 inset;
+  -o-box-shadow: 0 1px 0 #333333 inset;
+  box-shadow: 0 1px 0 #333333 inset;
+}
+
+/* line 266, ../sass/darkstrap.scss */
+blockquote {
+  border-left-color: #111;
+}
+/* line 268, ../sass/darkstrap.scss */
+blockquote.pull-right {
+  border-right-color: #111;
+}
+
+/* line 271, ../sass/darkstrap.scss */
+hr {
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+  border-top: none;
+}
+
+/* line 277, ../sass/darkstrap.scss */
+code {
+  border: none;
+}
+
+/* line 281, ../sass/darkstrap.scss */
+pre {
+  border: none;
+  color: #c6c6c6;
+}
+
+.popover {background:#222;}
+.popover-title {
+  background:#111;
+  color:#fff;
+  border-color:#222;
+}
+.popover.top .arrow,
+.popover.top .arrow:after {
+  border-top-color: #222;
+}
+.popover.right .arrow,
+.popover.right .arrow:after {
+  border-right-color: #222;
+}
+.popover.bottom .arrow,
+.popover.bottom .arrow:after {
+  border-bottom-color: #222;
+}
+.popover.left .arrow,
+.popover.left .arrow:after {
+  border-left-color: #222;
+}
+
+.dropdown-menu {background:#222;}
+.dropdown-menu > li > a {color:#ddd;}
+
+.dropdown-menu table td a:hover {
+    background-color: #111 !important;
+    border-color: #000 !important;
+}
+
+.img-polaroid {
+  background-color: #111;
+  border: 1px solid #000;
+}
+
+.bootstrap-timepicker.dropdown-menu:after {
+    border-bottom: 6px solid #222 !important;
+}
+
+.datepicker-dropdown:before {
+  border-bottom: 7px solid #222;
+}
+.datepicker-dropdown:after {
+  border-bottom: 6px solid #444;
+}
+.datepicker td span:hover {
+  background-color: #0044cc !important;
+}
+.datepicker thead tr th:hover,
+.datepicker td.day:hover {
+  background: #000 !important;
+  color:#08C !important;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999999 !important;
+  background:#111 !important;
+}
+
+.carousel-control {
+  top: 90%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  line-height: 15px;
+  border: 2px solid #999;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.carousel-control.right {
+  right: 5px;
+}
