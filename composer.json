@@ -17,7 +17,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"Yohns\\FileMan": "Yohns"
+			"Yohns\\FileMan\\": "Yohns"
 		}
 	}
 }
